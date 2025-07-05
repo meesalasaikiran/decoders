@@ -1,0 +1,44 @@
+/* Combinations Selectors */
+
+/* Inside the parent */
+
+/* Descendant */
+
+.header .navbar li  {
+    background-color: red;
+    margin: 5px;
+}
+
+.header .logo{
+    background-color: brown;
+}
+
+.header .navbar ul  {
+    background-color: rgb(179, 255, 0);
+    margin: 5px;
+}
+
+/* Child */
+/*header>.nav-list>li>a{
+    background-color: #d80e0e;
+    margin: 10px;
+}
+
+.footer>.nav-list>li>a{
+    background-color: #36d80e;
+    margin: 10px;
+}
+
+
+/* Outside the parent */
+
+/* Adjacent Sibling ( + ) */
+
+/*header + #categories>h2{
+    background-color: blue;
+}
+
+/* General Sibling */
+/*header + section{
+    background-color: #d80e0e;
+}
